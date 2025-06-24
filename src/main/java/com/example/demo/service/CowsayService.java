@@ -4,9 +4,12 @@ package com.example.demo.service;
 import java.util.List;
 import java.util.Random;
 
+import org.springframework.stereotype.Service;
+
 import com.example.demo.model.Mensagem;
 import com.example.demo.repository.MensagemRepository;
 
+@Service
 public class CowsayService {
     private final MensagemRepository repo;
 
